@@ -2,18 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa03959d-a223-4862-86c5-ff3d008585f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/recherche.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Stoo.iml" afterPath="$PROJECT_DIR$/.idea/Stoo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/products/11/original/artworks-000049911783-19dnmw-crop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/products/11/small/artworks-000049911783-19dnmw-crop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/images/rails.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/422.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/doc/README_FOR_APP" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/script/about" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/javascripts/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/app/controllers/application_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/app/helpers/application_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/initializers/backtrace_silencers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/script/performance/benchmarker" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/boot.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/test/performance/browsing_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/script/console" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/javascripts/controls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/initializers/cookie_verification_secret.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/database.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/script/dbconsole" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/script/destroy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/log/development.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/environments/development.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/javascripts/dragdrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/javascripts/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/locales/en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/environment.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/script/generate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/initializers/inflections.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/initializers/mime_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/initializers/new_rails_defaults.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/script/plugin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/log/production.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/environments/production.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/script/performance/profiler" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/javascripts/prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/vendor/rails" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/script/runner" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/db/seeds.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/log/server.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/script/server" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/initializers/session_store.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/log/test.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/config/environments/test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/console/test/test_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/project.rb" afterPath="$PROJECT_DIR$/app/models/project.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/projects.yml" afterPath="$PROJECT_DIR$/test/fixtures/projects.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
     </list>
     <ignored path="Stoo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,10 +92,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recherche.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="recherche.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/recherche.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="27" selection-start="89" selection-end="89" vertical-scroll-proportion="0.17162472" vertical-offset="0" max-vertical-offset="437">
+            <state line="5" column="27" selection-start="89" selection-end="89" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="0" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.72602737" vertical-offset="447" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -84,7 +140,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="278" selection-end="320" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="13" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -104,7 +160,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/recherche_controller.rb" />
@@ -116,6 +171,7 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/recherche.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -301,42 +357,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stoo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stoo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stoo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stoo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -706,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="77" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
@@ -785,14 +798,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="278" selection-end="320" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="13" column="0" selection-start="198" selection-end="198" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/recherche.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="89" selection-end="89" vertical-scroll-proportion="0.17162472" vertical-offset="0" max-vertical-offset="437">
+        <state line="5" column="27" selection-start="89" selection-end="89" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.72602737" vertical-offset="447" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
