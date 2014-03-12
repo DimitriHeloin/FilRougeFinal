@@ -42,7 +42,7 @@ class User < ActiveRecord::Base
           :confirmable, :lockable
   has_many :projects
 
-   has_attached_file :avatar, :styles => { :small => "150x150>",:medium=>"300x300" },
+   has_attached_file :avatar, :styles => { :small => "150x150",:medium=>"300x300" },
                     :url  => "/assets/products/:id/:style/:basename.:extension",
                     :path => ":rails_root/public/assets/products/:id/:style/:basename.:extension"
   
@@ -50,5 +50,4 @@ class User < ActiveRecord::Base
   validates_attachment_size :avatar, :less_than => 5.megabytes
   validates_attachment_content_type :avatar, :content_type => ['image/jpeg', 'image/png']
 
-   
 end

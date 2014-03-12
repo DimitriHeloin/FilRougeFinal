@@ -8,8 +8,10 @@ gem 'devise'
 gem 'better_errors'
 gem "binding_of_caller"
 
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'rmagick'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
