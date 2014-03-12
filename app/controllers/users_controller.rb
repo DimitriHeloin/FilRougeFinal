@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update]
 
+
   # GET /projects
   # GET /projects.json
   def index
@@ -20,8 +21,24 @@ class UsersController < ApplicationController
   def edit
   end
 
+  def destroy
+    User.find(params[:id]).destroy
+    flash[:success] = "User deleted."
+    redirect_to users_url
+  end
+
+
   def recherche
   end
+
+  def maincolor(path)
+
+    img =  Magick::Image.read(path).first
+    pix = img.scale(1, 1)
+    avg_color_hex = pix.to_color(pix.pixel_color(0,0))
+    return avg_color_hex
+  end
+  helper_method :maincolor
 
   # POST /projects
   # POST /projects.json

@@ -42,7 +42,7 @@ class User < ActiveRecord::Base
           :confirmable, :lockable
   
 
-   has_attached_file :avatar, :styles => { :small => "150x150>",:medium=>"300x300" },
+   has_attached_file :avatar, :styles => { :small => "150x150",:medium=>"300x300" },
                     :url  => "/assets/products/:id/:style/:basename.:extension",
                     :path => ":rails_root/public/assets/products/:id/:style/:basename.:extension"
   
