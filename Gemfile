@@ -6,9 +6,6 @@ gem 'annotate', ">=2.6.0"
 # Use Devise for user authentication
 gem 'devise'
 
-# Paperclip
-gem "paperclip", "~> 4.1"
-
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
@@ -20,6 +17,7 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
+gem "paperclip", "~> 4.1"
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
