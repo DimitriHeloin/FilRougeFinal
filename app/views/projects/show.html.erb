@@ -8,7 +8,16 @@
 <p>
   <strong>Description:</strong>
   <%= @project.description %>
+  <br>
+  <p>Membres max: <%= @project.membersmax %></p>
+
 </p>
+
+<p>
+  <strong>Auteur:</strong><%= @project.user_id %>
+  <br>
+</p>
+
 
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>

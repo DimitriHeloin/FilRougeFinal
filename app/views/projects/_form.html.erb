@@ -11,6 +11,8 @@
     </div>
   <% end %>
 
+ <%=current_user.id%>
+    <% @project.user_id=current_user.id%>
   <div class="field">
     <%= f.label :title %><br>
     <%= f.text_field :title %>
@@ -19,7 +21,14 @@
     <%= f.label :description %><br>
     <%= f.text_area :description %>
   </div>
+  <div class="field">
+    <%= f.label :membersmax %><br>
+    <%= f.text_field :membersmax %>
+  </div>
+  
+
   <div class="actions">
     <%= f.submit %>
+  
   </div>
 <% end %>

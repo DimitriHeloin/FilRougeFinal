@@ -18,6 +18,16 @@ class UsersController < ApplicationController
   # GET /projects/1/edit
   def edit
   end
+  # DELETE /users/1
+  # DELETE /users/1.json
+   # DELETE /projects/1
+  # DELETE /projects/1.json
+  def destroy
+  User.find(params[:id]).destroy
+    flash[:success] = "User deleted."
+    redirect_to users_url
+  end
+
 
   
   # POST /projects

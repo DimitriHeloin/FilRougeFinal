@@ -10,6 +10,25 @@
   <strong>Description:</strong>
   <%= @user.description %>
 </p>
+<strong>Projects: <%= @user.projects.count %></strong>
+<fieldset>
+<p>
+  
+  <tbody>
+    <% @user.projects.each do |project| %>
+      <tr>
+        <td><%= project.title %></td>
+        <td><%= project.membersmax %></td>
+        <td><%= link_to 'Show', project %></td>
+        <td><%= link_to 'Edit', edit_project_path(project) %></td>
+        <td><%= link_to 'Destroy', project, method: :delete %></td>
+      </tr>
+      <br>
+    <% end %>
+  </tbody>
+</p>
+</fieldset>
+
 
 <%= link_to 'Edit', edit_user_registration_path %> |
 <%= link_to 'Back', users_path %>

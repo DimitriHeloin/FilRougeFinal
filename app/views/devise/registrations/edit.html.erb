@@ -38,17 +38,6 @@
   <div><%= f.submit "Update" %></div>
 <% end %>
 </fieldset>
-<p>////////////////////</p>
-
-<fieldset>
-
-<% form_for @user, :html => { :multipart =>true } do |f| %>
- <p>
-    <%= f.file_field :avatar %>
-  </p>
-  <p><%= f.submit "Submit" %></p>
-<% end %>
-</fieldset>
 
 
 <h3>Cancel my account</h3>
