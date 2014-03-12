@@ -1,0 +1,11 @@
+<table>
+  <% index.each do |user| %>
+
+      <tr>
+        <td>
+          <%= user.pseudo%>
+          <%= image_tag user.avatar.url(:medium) %>
+        </td>
+      </tr>
+  <%end%>
+</table>

@@ -5,7 +5,7 @@ gem 'rails', '4.0.1'
 gem 'annotate', ">=2.6.0"
 # Use Devise for user authentication
 gem 'devise'
-
+gem 'better_errors'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 

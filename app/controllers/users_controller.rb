@@ -6,6 +6,7 @@ class UsersController < ApplicationController
   def index
     @users = User.all
   end
+  helper_method :index
 
   # GET /projects/1
   # GET /projects/1.json
@@ -19,10 +20,12 @@ class UsersController < ApplicationController
   def edit
   end
 
-  
+  def recherche
+  end
+
   # POST /projects
   # POST /projects.json
-  
+
 
   private
     # Use callbacks to share common setup or constraints between actions.
