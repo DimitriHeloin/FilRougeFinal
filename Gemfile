@@ -6,6 +6,9 @@ gem 'annotate', ">=2.6.0"
 # Use Devise for user authentication
 gem 'devise'
 
+# Paperclip
+gem "paperclip", "~> 4.1"
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
