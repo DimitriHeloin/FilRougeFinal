@@ -1,12 +1,10 @@
 source 'https://rubygems.org'
 
-ruby "2.1.0"
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
-
+gem 'rails', '4.0.1'
+gem 'annotate', ">=2.6.0"
 # Use Devise for user authentication
-gem 'devise', :git => 'git://github.com/plataformatec/devise.git', :ref => '49aebde'
+gem 'devise'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -48,3 +46,10 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+#Email   : user@test.com
+#Password: user1234
+#New admin created!
+#Email   : admin@test.com
+#Password: admin1234
