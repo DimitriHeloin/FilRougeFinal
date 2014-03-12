@@ -29,6 +29,10 @@
 #  description            :text
 #  domaine                :string(255)
 #  profile_completed      :boolean
+#  avatar_file_name       :string(255)
+#  avatar_content_type    :string(255)
+#  avatar_file_size       :integer
+#  avatar_updated_at      :datetime
 #
 
 class User < ActiveRecord::Base
@@ -36,11 +40,15 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable,
           :confirmable, :lockable
-
-  has_attached_file :avatar, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"
-  validates_attachment_content_type :avatar, :content_type => /\Aimage\/.*\Z/
-
   
+
+   has_attached_file :avatar, :styles => { :small => "150x150>" },
+                    :url  => "/assets/products/:id/:style/:basename.:extension",
+                    :path => ":rails_root/public/assets/products/:id/:style/:basename.:extension"
+  
+  validates_attachment_presence :avatar
+  validates_attachment_size :avatar, :less_than => 5.megabytes
+  validates_attachment_content_type :avatar, :content_type => ['image/jpeg', 'image/png']
 
    
 end
