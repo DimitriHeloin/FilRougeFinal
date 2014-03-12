@@ -3,7 +3,7 @@
 <p>
   <strong>Pseudo:</strong>
   <%= @user.pseudo %>
-  <%= image_tag @user.avatar.url %>
+  <%= image_tag @user.avatar.url(:small) %>
 </p>
 
 <p>
@@ -11,6 +11,6 @@
   <%= @user.description %>
 </p>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Edit', edit_user_registration_path %> |
 <%= link_to 'Back', users_path %>
 
