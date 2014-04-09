@@ -2,30 +2,26 @@
 
 <table>
   <thead>
-    <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Auteur</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
+    <%= link_to 'New Project', new_project_path %>
   </thead>
 
   <tbody>
     <% @projects.each do |project| %>
-      <tr>
-        <td><%= project.title %></td>
-        <td><%= project.description %></td>
-        <td><%= project.user_id %></td>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete%></td>
-      </tr>
+    <div class="preview_project">
+
+      <p id="title"><%= project.title %></p> 
+        </br>
+        <%= project.description %>
+        </br>
+        Auteur:<%= project.user_id %></br>
+        <%= link_to 'Show', project %>
+        <%= link_to 'Edit', edit_project_path(project) %>
+        <%= link_to 'Destroy', project, method: :delete%>
+    </div>
     <% end %>
   </tbody>
 </table>
 
 <br>
 
-<%= link_to 'New Project', new_project_path %>
+

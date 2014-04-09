@@ -93,3 +93,22 @@ a {
   font-size: 12px;
   list-style: disc;
 }
+
+.preview_project{
+  width: 90%;
+  height:70px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #99CCFF;
+  margin-bottom: 4px;
+}
+
+.preview_project p{
+  display:inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#tile{
+  font-size: 14em;
+}
