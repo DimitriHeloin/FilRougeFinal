@@ -10,7 +10,12 @@ gem "binding_of_caller"
 
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+group :development, :test do # <<<< :development, not devlopment
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+end
 gem 'rmagick'
 
 # Use SCSS for stylesheets
