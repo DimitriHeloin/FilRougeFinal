@@ -14,10 +14,9 @@
         <%= content_tag :div, msg, id: "flash_#{name}" if msg.is_a?(String) %>
       <%- end -%>
 
-      <p>
+      <p><%= link_to 'Home', root_path %>
          <%= link_to 'Projects', projects_path%>
          <%= link_to 'Users', users_path%>
-         
       </p>
 
       <% if user_signed_in? -%>
