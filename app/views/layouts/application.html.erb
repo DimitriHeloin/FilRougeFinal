@@ -2,22 +2,32 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure.css">
     <title><%= h(yield(:title) || "Devise") %></title>
     <%= csrf_meta_tag %>
-    <%= stylesheet_link_tag    "application", media: "all" %>
+    <%= stylesheet_link_tag    "application","main-grid","marketing","base-min", media: "all" %>
     <%= javascript_include_tag :application %>
     <%= yield(:head) %>
   </head>
   <body>
-    <div id="container">
-      <%- flash.each do |name, msg| -%>
-        <%= content_tag :div, msg, id: "flash_#{name}" if msg.is_a?(String) %>
-      <%- end -%>
 
-      <p><%= link_to 'Home', root_path %>
-         <%= link_to 'Projects', projects_path%>
-         <%= link_to 'Users', users_path%>
-      </p>
+  <div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+      <a class="pure-menu-heading" href="">Your Site</a>
+      <ul>
+        <li class="pure-menu-selected">
+          <%= link_to 'Home', root_path %> </li>
+        <li> <%= link_to 'Projects', projects_path %> </li>
+        <li> <%= link_to 'Users', users_path %> </li>
+      </ul>
+    </div>
+  </div>
+  <div class="splash-container">
+    <%- flash.each do |name, msg| -%>
+        <%= content_tag :div, msg, id: "flash_#{name}" if msg.is_a?(String) %>
+    <%- end -%>
 
       <% if user_signed_in? -%>
         <div id="user_login_box" style="float:right">
